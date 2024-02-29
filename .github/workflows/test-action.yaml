@@ -1,0 +1,15 @@
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: A job to say hello
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Sql report summary
+        id: sql-report-summary
+        uses: devilxatoms/SQLPackageReportsAction@v1.0
+        with:
+          report-path: 'dummyData/dummy.xml'

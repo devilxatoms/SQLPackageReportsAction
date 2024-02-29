@@ -1,0 +1,10 @@
+name: 'sqlpackage report summary'
+description: 'Summarize sqlpackage report'
+inputs:
+  report-path:  # id of input
+    description: 'sqlpackage report path'
+    required: true
+    default: 'artifacts/report.xml'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
