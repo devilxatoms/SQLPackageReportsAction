@@ -12,4 +12,4 @@ jobs:
         id: sql-report-summary
         uses: devilxatoms/SQLPackageReportsAction@v1.0
         with:
-          report-path: 'dummyData/dummy.xml'
+          report-path: './dummyData/dummy.xml'
