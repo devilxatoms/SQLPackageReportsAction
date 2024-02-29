@@ -10,6 +10,6 @@ jobs:
 
       - name: Sql report summary
         id: sql-report-summary
-        uses: devilxatoms/SQLPackageReportsAction@v1.0
+        uses: devilxatoms/SQLPackageReportsAction@v1.1
         with:
           report-path: './dummyData/dummy.xml'
