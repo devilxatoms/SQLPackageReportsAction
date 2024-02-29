@@ -5,7 +5,7 @@ const core = require("@actions/core");
 const { parseXmlReport } = require("./src/parseXmlReport");
 const { processReport } = require("./src/processReport");
 
-const xmlFilePath = core.getInput("xmlFilePath");
+const xmlFilePath = core.getInput("report-path");
 // const xmlFilePath = "./dummyData/dummy3.xml";
 
 async function run(report) {
