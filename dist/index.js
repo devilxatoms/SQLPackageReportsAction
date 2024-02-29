@@ -33295,7 +33295,7 @@ const core = __nccwpck_require__(5555);
 const { parseXmlReport } = __nccwpck_require__(6951);
 const { processReport } = __nccwpck_require__(8898);
 
-const xmlFilePath = core.getInput("xmlFilePath");
+const xmlFilePath = core.getInput("report-path");
 // const xmlFilePath = "./dummyData/dummy3.xml";
 
 async function run(report) {
